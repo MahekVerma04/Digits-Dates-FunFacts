@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: cyan; */
+    /* background-color: rgb(90, 214, 214); */
+    /* background-color:#12E6C8; */
+    background-color:#0B032D;
+}
+
+:root{
+    --lightBlue:#96ACB7;
+    --darkBlue:#36558F;
+    --purple:#40376E;
+    --violet:#48233C;
+    --creme:#D4E4BC;
+
+}
+.title{
+    min-height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.wrap{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+.wrapBtn{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#io{
+    height: 40px;
+    width: 300px;
+    align-self: center;
+    
+}
+button{
+    border:2px solid grey;
+    height: 50px;
+    width: 180px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+button::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    color: white;
+}
+
+h5{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    color: white;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 30px;
+    font-size: 20px;
+    color: white;
+}
+.radio:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.result{
+    min-height: 180px;
+    /* background-color: #36558F; */
+    /* background-color: #910A67; */
+    /* background-color: #720455; */
+    /* background-color: hwb(255 53% 4%); */
+    background-color: #843B62;
+    height: auto;
+    width: 50%;
+    /* background-color: #D4E4BC; */
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid black ;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    min-height: 40px;
+    /* min-height: 80px; */
+    margin: auto;
+    /* background-color: #843B62; */
+    border-radius: 3px;
+    color: white;
+    
+}

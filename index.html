@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="title"><h4 class=""> Digits & Dates: Fun Facts</h4></div>
+    <div class="result">
+        <h2 id="num"></h2>
+    </div>
+    <h5>Discover by Type</h5>
+    
+    <div class="input">
+        <label for="radio">
+            <input type="radio" name="type" value="date" id="date">Date
+        </label>
+        <label for="radio">
+            <input type="radio" name="type" value="math" id="math">Math
+        </label>
+        <label for="radio">
+            <input type="radio" name="type" value="trivia" id="trivia">Trivia
+        </label>
+        <label for="radio">
+            <input type="radio" name="type" value="year" id="year">Year
+        </label>
+    </div>
+    <div class="msg" id="msg"></div>
+    <div class="wrap">
+        <input id="io" type="text" placeholder="Enter number">
+    </div>
+    <!-- <input id="type" type ="text" placeholder="Trivia, Date, Random , Number"> -->
+    <div class="wrapBtn"> <button id="btn">Find fact</button>
+    </div>
+    
+
+    <script src="api1.js"></script>
+</body>
+
+</html>
